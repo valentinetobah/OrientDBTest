@@ -5,8 +5,6 @@
  */
 package com.orientdbtest.pojo;
 
-import com.orientechnologies.orient.core.id.ORID;
-
 /**
  *
  * @author tobah

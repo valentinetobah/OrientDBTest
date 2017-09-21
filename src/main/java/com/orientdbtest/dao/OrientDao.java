@@ -45,10 +45,11 @@ public class OrientDao {
                     studentList.add(student);
 
                 }
+                
+                return studentList;
             }
         }
-
-        return studentList;
+   
     }
 
     public static List<Subject> getAllSubjects() {
@@ -74,10 +75,11 @@ public class OrientDao {
                     subjectList.add(subject);
 
                 }
+                
+              return subjectList;  
             }
         }
-
-        return subjectList;
+        
     }
 
     public static Subject getSubject(String rid) {

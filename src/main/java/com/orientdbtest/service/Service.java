@@ -22,7 +22,7 @@ public class Service {
         String json;
         String rid1 = "#" + rid;
         
-        if (rid1 == null) {
+        if (rid == null) {
             
             json = new Gson().toJson(OrientDao.getAllStudents());
             
@@ -44,7 +44,7 @@ public class Service {
         String json;
         String rid1 = "#" + rid;
         
-        if (rid1 == null) {
+        if (rid == null) {
             
             json = new Gson().toJson(OrientDao.getAllSubjects());
             
